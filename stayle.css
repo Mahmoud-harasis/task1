@@ -35,4 +35,7 @@
       padding: 0;
       border: black;border-style: outset;width: 300px;height: 130px;
     }
+    .nn{
+      border: #000 10px;
+    }
    
