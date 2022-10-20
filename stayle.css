@@ -107,3 +107,36 @@
     display: initial;
   }
   }
+
+
+  .div1{
+    background-color: rgb(255, 255, 255);
+  width: 300px;
+  border: 10px solid rgb(35, 34, 34);
+  padding: 50px;
+  margin: 20px;
+  }
+  .div2{
+    background-color: rgb(255, 255, 255);
+  width: 300px;
+  border: 10px dashed rgb(35, 34, 34);
+  padding: 50px;
+  margin: 20px;
+  }
+
+
+  .div3{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  width: 300px;
+  border: 10px solid rgb(35, 34, 34);
+  padding: 50px;
+  margin: 20px;
+  }
+  
+  #ba{
+    background-color: aquamarine;
+  }
+  #fg{
+    background-color: rgb(231, 233, 124);
+  }
