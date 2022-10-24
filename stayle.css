@@ -10,6 +10,8 @@
     background: url(images.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
   }
 
   header{
@@ -140,3 +142,4 @@
   #fg{
     background-color: rgb(231, 233, 124);
   }
+
