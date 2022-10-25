@@ -5,35 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-      #flex{
-        border: 3px solid black;
-        width: 300px;
-        height: 300px;
-        display: flex;
-        
-      
-      }
-      #flex p {
-        margin: 0;
-        width: 300px;
-        height: 300px;
-        font-size: 25px;
-        color: white;
-      }
+    
+      <style>
+        body{
+            margin: 0;
+        }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+       grid-template-rows: 800px;
+       color: white;
+       font-size:xx-large;
+       border: 8px solid rgb(211, 158, 60);
+       text-align: center;
+       margin: 0;
+       padding: 0;
+    }
+    #num1{
+        background-color: rgb(128, 0, 255);
+    } 
+    #num2{
+        background-color: rgb(95, 72, 124);
+    }
+    #num3{
+        background-color: rgb(12, 1, 21);
+    }
+    #num4{
+        background-color: rgb(23, 139, 139);
+    }
+    #num5{
+        background-color: rgb(4, 60, 32);
+    }
+    #num6{
+        background-color: rgb(247, 125, 143);
+    }
+    #num7{
+        background-color: rgb(120, 124, 11);
+    }
+    #num8{
+        background-color: rgb(230, 38, 38);
+    }
+    #num9{
+        background-color: rgb(157, 133, 109);
+    }
     </style>
 </head>
 <body>
-    <div id="flex">
-        <p  style="background-color:coral;">1</p>
-        <p  style="background-color:rgb(255, 80, 173);">2</p>
-        <p  style="background-color:rgb(127, 80, 255);">3</p>
-        <p style="background-color:rgb(255, 80, 80);">4</p>
-        <p style="background-color:rgb(80, 255, 112);">5</p>
-        <p  style="background-color:rgb(80, 226, 255);">6</p>
-        <p  style="background-color:rgb(246, 255, 80);">7</p>
-        <p  style="background-color:rgb(131, 13, 9);">8</p>
-        <p style="background-color:rgb(15, 28, 101);">9</p>
-    </div>
-</body>
+    <div class="container">
+        <div id="num1">1</div>
+        <div id="num2">2</div>
+        <div id="num3">3</div>
+        <div id="num4">4</div>
+        <div id="num5">5</div>
+        <div id="num6">6</div>
+        <div id="num7">7</div>
+        <div id="num8">8</div>
+        <div id="num9">9</div>
+    </div>
 </html>
